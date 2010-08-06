@@ -1,8 +1,8 @@
 VERSION = 0.2
 
-PREFIX?= /usr/local
+PREFIX ?= /usr/local
 
-CFLAGS = -std=c99 -Wall -Wextra -pedantic -pedantic-errors
+CFLAGS  = -std=c99 -Wall -Wextra -pedantic -pedantic-errors
 LDFLAGS = -lpthread
 
 CC = gcc
